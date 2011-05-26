@@ -1,0 +1,11 @@
+h1. Matrix Tidy Cols
+
+EE1 extension that cleans up your Matrix field-column associations after duplicating a site with MSM.
+
+h3. Installation
+
+To install Matrix Tidy Cols, upload ext.matrix_tidy_cols.php to your system/extensions/ folder.
+
+h3. Usage
+
+Whenever you duplicate a site with MSM, make sure you go to Admin > Utilities > Extensions Manager, and click the “Enable” button beside Matrix Tidy Cols. The script will run, and you will be given a log of what happened. After returning to the Extensions Manager page, the Matrix Tidy Cols extension will still be disabled, because it doesn’t actually install any extension hooks. Don’t worry about it.
