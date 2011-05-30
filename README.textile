@@ -1,6 +1,8 @@
 h1. Matrix Tidy Cols
 
-EE1 extension that cleans up your Matrix field-column associations after duplicating a site with MSM.
+When you duplicate a Matrix field in EE1 with MSM, Matrix isn’t given a chance to duplicate its columns as well, so the result is two Matrix fields sharing the same columns. This becomes an issue when you edit or delete a column in one site, because the change affects both Matrix fields.
+
+This extension resolves that problem by auditing each of your Matrix fields, ensuring that all column associations are unique, duplicating columns and migrating data as needed.
 
 h3. Installation
 
